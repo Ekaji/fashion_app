@@ -1,7 +1,7 @@
 import backgroundImg from './img/image.jpg';
 import svgBg from './img/sssquigglyL3.svg';
 import NavBar from './components/nav/navbar';
-import { BsArrowRight, BsArrowDown, BsArrowUp } from 'react-icons/Bs';
+import { BsArrowRight, BsArrowDown, BsArrowUp } from 'react-icons/bs';
 import './App.css';
 import Arch from './components/arch/arch'
 
