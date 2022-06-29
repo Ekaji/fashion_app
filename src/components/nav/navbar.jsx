@@ -5,7 +5,7 @@ console.log(data[0])
 
 
   return (
-    <nav className={`${bottom ? 'absolute bottom-2' : ''} bg-transparent border-gray-200 px-2 sm:px-4 py-2.5 rounded z-20 absolute w-screen lg:w-8/12 mt-4`}>
+    <nav className={`${bottom ? 'absolute lg:bottom-2' : ''} bg-transparent border-gray-200 px-2 sm:px-4 py-2.5 rounded z-20 absolute w-screen lg:w-8/12 mt-4`}>
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         {
          !bottom ? (
