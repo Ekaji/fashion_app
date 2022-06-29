@@ -43,15 +43,18 @@ export default function Arch() {
     font-size: 14px;
     font-family: monospace;
   }
+  
 `
 
   return (
-    <Circle
-      text="New   collection   and   accessories "
-      characterWidth={9}
-      radius={70}
-    >
-      <div className='w-6 h-6 bg-black rounded-full'></div>
-    </Circle>
+    <span className='w-full animate-spin-slow'>
+      <Circle
+        text="New   collection   and   accessories "
+        characterWidth={9}
+        radius={70}
+      >
+        <div className='w-6 h-6 bg-black rounded-full'></div>
+      </Circle>
+    </span>
   );
 }
