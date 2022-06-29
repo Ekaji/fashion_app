@@ -1,10 +1,9 @@
 import backgroundImg from './img/image.jpg';
 import svgBg from './img/sssquigglyL3.svg';
 import NavBar from './components/nav/navbar';
-import { BsArrowRight, BsArrowDown, BsArrowUp } from 'react-icons/bs';
+import { BsArrowRight, BsArrowDown, BsArrowUp } from 'react-icons/Bs';
 import './App.css';
 import Arch from './components/arch/arch';
-// import FourPointStar from './components/fourPointStar/FourPointStar';
 
 function App() {
   const navLinks = ['Home', 'Exhibition', 'Partnership'];
@@ -45,9 +44,9 @@ function App() {
             </div>
           </div>
           <NavBar bottom data={socialLinks} />
-          <div className='four-pointed-star left-40 top-52 before:bg-[#FB7E48] after:bg-[#FB7E48]' ></div>
-          <span className='four-pointed-star left-[40rem] top-96 before:bg-[#424B5A] after:bg-[#424B5A]' ></span>
-          <span className='four-pointed-star left-[23rem] bottom-20 before:bg-[#DADADA] after:bg-[#DADADA]' ></span>
+          <div className="four-pointed-star left-40 top-52 before:bg-[#FB7E48] after:bg-[#FB7E48]"></div>
+          <span className="four-pointed-star left-[10rem] lg:left-[40rem] top-96 before:bg-[#424B5A] after:bg-[#424B5A]"></span>
+          <span className="four-pointed-star left-[23rem] bottom-20 before:bg-[#DADADA] after:bg-[#DADADA]"></span>
         </div>
 
         <div className="-z-50 relative w-screen lg:w-4/12 lg:z-10">
