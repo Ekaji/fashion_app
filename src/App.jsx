@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App  ">
       <NavBar data={navLinks} />
-      <div className="flex h-[90vh] lg:h-screen ">
+      <div className="flex h-full lg:h-screen ">
         <div
           className="w-0 lg:w-8/12 bg-fixed bg-center bg-cover bg-no-repeat"
           style={{ backgroundImage: `url(${svgBg})` }}
