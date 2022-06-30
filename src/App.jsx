@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App  ">
       <NavBar data={navLinks} />
-      <div className="flex h-screen ">
+      <div className="flex h-full lg:h-screen ">
         <div
           className="w-0 lg:w-8/12 bg-fixed bg-center bg-cover bg-no-repeat"
           style={{ backgroundImage: `url(${svgBg})` }}
@@ -44,9 +44,9 @@ function App() {
             </div>
           </div>
           <NavBar bottom data={socialLinks} />
-          <div className="four-pointed-star left-40 top-52 before:bg-[#FB7E48] after:bg-[#FB7E48]"></div>
-          <span className="four-pointed-star left-[10rem] lg:left-[40rem] top-96 before:bg-[#424B5A] after:bg-[#424B5A]"></span>
-          <span className="four-pointed-star left-[23rem] bottom-20 before:bg-[#DADADA] after:bg-[#DADADA]"></span>
+          <div className='four-pointed-star left-40 top-52 before:bg-[#FB7E48] after:bg-[#FB7E48]' ></div>
+          <span className='four-pointed-star left-[10rem] lg:left-[40rem] top-96 before:bg-[#424B5A] after:bg-[#424B5A]' ></span>
+          <span className='four-pointed-star left-[23rem] bottom-20 before:bg-[#DADADA] after:bg-[#DADADA]' ></span>
         </div>
 
         <div className="-z-50 relative w-screen lg:w-4/12 lg:z-10">
